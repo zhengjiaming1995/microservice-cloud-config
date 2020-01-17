@@ -1,14 +1,15 @@
+#在这里我加一行注释，看下会不会报错！（如果没删掉的话说明不影响，也就是不会报错~~~）
 spring:
   profiles:
     active: dev #激活开发环境配置
-
+---
 server:
   port: 4001 #端口号
 spring:
   profiles: dev #这里表示我们选择开发环境
   application:
     name: microservice-config-dev
-
+---
 server:
   port: 4002 #另一个服务的端口号
 spring:
