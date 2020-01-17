@@ -1,5 +1,4 @@
-#注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错
-spring: 
+spring: #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，并且不能随便加注释，不然报错
   profiles: 
     active: dev # 激活开发环境配置 
 
@@ -15,6 +14,6 @@ server:
 spring: 
   profiles: prod # 生产环境
   application: 
-    name: microservice-config-prod
+    name: microservice-config-prod  #保存时注意，选择 UTF-8 保存
  
-#保存时注意，选择 UTF-8 保存
+
