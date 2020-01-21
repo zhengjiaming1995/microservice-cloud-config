@@ -33,7 +33,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true
 emp:
-  name: 测试添加@RefreshScope后不重启服务是否可以拉取到新的配置信息
+  name: 测试添加@RefreshScope后不重启服务是否可以拉取到新的配置信息（这次真不重启，直接使用postman发送请求~）
 
 ---
 server:
