@@ -33,7 +33,7 @@ eureka:
     instanceId: ${spring.application.name}:${server.port}
     prefer-ip-address: true
 emp:
-  name: 郑佳明
+  name: 郑佳明不重复push尝试是否加@Refreshscope可进行代替~
 
 ---
 server:
